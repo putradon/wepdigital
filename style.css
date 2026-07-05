@@ -1,0 +1,107 @@
+body{
+
+    font-family:Arial;
+    background:#f5f5f5;
+    
+    }
+    
+    .container{
+    
+    width:700px;
+    margin:auto;
+    margin-top:30px;
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px gray;
+    
+    }
+    
+    h1{
+    
+    text-align:center;
+    
+    }
+    
+    select,
+    input,
+    button{
+    
+    width:100%;
+    padding:10px;
+    margin-top:10px;
+    
+    }
+    table{
+        width:100%;
+        border-collapse:collapse;
+        margin: 20px auto;
+        box-shadow: 0 20px 8px blue;
+        padding: 9px;
+        background: white;
+        border-radius: 14px;
+    }
+    tr:hover{
+        background-color:rgb(238, 17, 227);
+    }
+    button{
+    
+    background:green;
+    color:white;
+    border:none;
+    cursor:pointer;
+    
+    }
+    
+    button:hover{
+    
+    background:#0b6b0b;
+    box-shadow:0 20px 8px rgb(47, 4, 238) ;
+    
+    }
+    
+    table{
+    
+    width:100%;
+    margin-top:20px;
+    border-collapse:collapse;
+    
+    }
+    
+    table th,
+    table td{
+    
+    border:1px solid #ccc;
+    padding:10px;
+    text-align:center;
+    
+    }
+    
+    th{
+    
+    background:#2e7d32 ;
+    color:white;
+    
+    
+    }
+    th:hover{
+        background-color:rgb(238, 17, 227);
+    }
+    
+    .hapus{
+    
+    background:red;
+    
+    }
+    
+    .edit{
+    
+    background:orange;
+    
+    }
+    
+    img{
+    
+    margin-top:20px;
+    
+    }

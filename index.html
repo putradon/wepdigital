@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kasir Warteg</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>KASIR WARTEG <br> karyawan 7meter
+    </h1>
+
+    <div class="form">
+
+        <label>Nama Menu</label>
+        <input type="text" id="nama" placeholder="Masukkan nama menu">
+        <br><br>
+        <label>Harga</label>
+        <input type="number" id="harga" placeholder="Masukkan harga">
+        <br><br>
+        <label>Jumlah</label>
+        <input type="number" id="jumlah" placeholder="Masukkan jumlah">
+
+        <button onclick="tambahData()">
+            Tambah Ke Keranjang
+        </button>
+
+    </div>
+
+    <table>
+
+        <thead>
+
+            <tr>
+
+                <th>No</th>
+                <th>Menu</th>
+                <th>Harga</th>
+                <th>Jumlah</th>
+                <th>Subtotal</th>
+                <th>Aksi</th>
+
+            </tr>
+
+        </thead>
+
+        <tbody id="tabelData">
+
+        </tbody>
+
+    </table>
+
+    <h2 id="total">
+        Total : Rp 0
+    </h2>
+
+    <div class="button">
+
+        <button onclick="resetData()">
+            Hapus Semua
+        </button>
+
+        <button onclick="lanjutPembayaran()">
+            Bayar QRIS
+        </button>
+
+    </div>
+
+</div>
+
+<!-- Halaman QRIS -->
+
+<div class="container" id="halamanQris" style="display:none; text-align:center;">
+
+    <h1>Pembayaran QRIS</h1>
+
+    <img src="foto.jpg" width="300">
+
+    <h2 id="totalBayar"></h2>
+
+    <button onclick="kembali()">
+        Kembali
+    </button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
